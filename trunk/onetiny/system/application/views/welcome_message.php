@@ -1,14 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
-    <head>
-        <title>
-            This is a test
-        </title>
+<head>
+<title>Welcome to Code Igniter</title>
+
 <style type="text/css">
 
-body {
- background-color: #fff;
- margin: 40px;
+body { 
+ background-color: #fff; 
+ margin: 40px; 
  font-family: Lucida Grande, Verdana, Sans-serif;
  font-size: 14px;
  color: #4F5155;
@@ -42,22 +40,23 @@ code {
 }
 
 </style>
-    </head>
-    <body>
-        <h1>
-            Welcome to One Tiny Seed!
-        </h1>
+</head>
+<body>
 
-  <p>These are things I like about Adhis.</p>
+<h1>Welcome to Code Igniter!</h1>
 
-  <?php foreach $trait as $item: ?>
+<p>The page you are looking at is being generated dynamically by Code Igniter.</p>
 
-  <ol>
-    <li>$item<br/>
-    </li>
-  </ol>
-  <?php endfor; ?>
+<p>If you would like to edit this page you'll find it located at:</p>
+<code>system/application/views/welcome_message.php</code>
 
-    </body>
+<p>The corresponding controller for this page is found at:</p>
+<code>system/application/controllers/welcome.php</code>
+
+<p>If you are exploring Code Igniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+
+
+<p><br />Page rendered in {elapsed_time} seconds</p>
+
+</body>
 </html>
-
