@@ -1,0 +1,1 @@
+These are WordPerfect macros that have been developed over the last 10 years or so to speed up transcription and translation.
